@@ -1,0 +1,8 @@
+# db-roles extension
+comment = 'db roles'
+default_version = '0.0.1'
+module_pathname = '$libdir/db-roles'
+requires = 'plpgsql'
+relocatable = false
+superuser = false
+  

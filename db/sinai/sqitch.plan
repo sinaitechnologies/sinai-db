@@ -1,3 +1,12 @@
 %syntax-version=1.0.0
   %project=sinai
   
+extensions/app-extensions 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add extensions/app-extensions
+schemas/app_private/schema 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_private/schema
+schemas/app_private/grants/grant_schema_to_authenticated [schemas/app_private/schema] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_private/grants/grant_schema_to_authenticated
+schemas/app_public/schema 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/schema
+schemas/app_public/grants/grant_schema_to_anonymous [schemas/app_public/schema] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/grants/grant_schema_to_anonymous
+schemas/app_public/grants/grant_schema_to_authenticated [schemas/app_public/schema] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/grants/grant_schema_to_authenticated
+schemas/app_public/tables/companies/table [schemas/app_public/schema] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/tables/companies/table
+schemas/app_public/tables/facilities/table [schemas/app_public/schema schemas/app_public/tables/companies/table] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/tables/facilities/table
+schemas/app_public/tables/users/table [schemas/app_public/schema] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/tables/users/table

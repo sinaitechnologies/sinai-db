@@ -18,7 +18,7 @@ Now that the postgres process is running, install the extensions:
 make install
 ```
 
-This basically `ssh`s into the postgres instance with the `packages/` folder mounted as a volume, and installs the bundled sql code as pgxn extensions.
+This basically `ssh`s into the postgres instance with the `db/` folder mounted as a volume, and installs the bundled sql code as pgxn extensions.
 
 # now you can deploy code
 

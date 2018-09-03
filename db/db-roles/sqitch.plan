@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+  %project=db-roles
+  
+roles/anonymous/role 2018-09-03T05:41:25Z Dan Lynch <dlynch@Dans-MBP> # add roles/anonymous/role
+roles/authenticated/role 2018-09-03T05:41:32Z Dan Lynch <dlynch@Dans-MBP> # add roles/authenticated/role
+roles/administrator/role 2018-09-03T05:41:38Z Dan Lynch <dlynch@Dans-MBP> # add roles/administrator/role
