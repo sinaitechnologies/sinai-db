@@ -10,3 +10,4 @@ schemas/app_public/grants/grant_schema_to_authenticated [schemas/app_public/sche
 schemas/app_public/tables/companies/table [schemas/app_public/schema] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/tables/companies/table
 schemas/app_public/tables/facilities/table [schemas/app_public/schema schemas/app_public/tables/companies/table] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/tables/facilities/table
 schemas/app_public/tables/users/table [schemas/app_public/schema] 2017-08-11T08:11:51Z skitch <skitch@5b0c196eeb62> # add schemas/app_public/tables/users/table
+schemas/app_public/tables/footprints/table [schemas/app_public/schema] 2018-09-03T07:56:46Z Dan Lynch <dlynch@Dans-MBP> # add schemas/app_public/tables/footprints/table
