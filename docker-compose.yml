@@ -2,7 +2,8 @@ version: '2'
 services:
   postgres:
     container_name: postgres
-    image: postgres:10.3
+    image: pyramation/postgres-plv8
+    # image: postgres:10.3
     # build: .
     environment:
       - "POSTGRES_USER=postgres"
