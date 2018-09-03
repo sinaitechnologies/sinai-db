@@ -1,0 +1,9 @@
+version: '2'
+services:
+    postgres:
+        container_name: postgres
+        image: postgres:10.3
+        ports:
+          - "5432:5432"
+        expose:
+          - "5432"

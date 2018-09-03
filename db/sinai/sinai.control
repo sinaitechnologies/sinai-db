@@ -1,0 +1,8 @@
+# sinai extension
+comment = 'SINAI'
+default_version = '0.0.1'
+module_pathname = '$libdir/sinai'
+requires = 'plpgsql,uuid-ossp'
+relocatable = false
+superuser = false
+  
